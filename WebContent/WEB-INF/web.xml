@@ -28,4 +28,20 @@
     <servlet-name>Panier</servlet-name>
     <url-pattern>/Panier</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>AjouterPanier</servlet-name>
+    <servlet-class>servlet.AjouterPanier</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjouterPanier</servlet-name>
+    <url-pattern>/AjouterPanier</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViderPanier</servlet-name>
+    <servlet-class>servlet.ViderPanier</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViderPanier</servlet-name>
+    <url-pattern>/ViderPanier</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -18,6 +18,10 @@
 		<input type="submit" value="enlever du panier" />
 	</form>
 	
+	<form action="Catalogue" method="post">
+		<input type="submit" value="retour catalogue" />
+	</form>
+	
 	<h4>prix ttc</h4>
 	
 
