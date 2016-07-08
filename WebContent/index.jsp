@@ -10,7 +10,7 @@
 
 	<!-- Tag de redirection vers les pages xhtml de l'application. -->
 
-	<form action="Catalogue" method="post">
+	<form action="Catalogue" method="get">
 		<input type="submit" value="catalogue" />
 	</form>
 
